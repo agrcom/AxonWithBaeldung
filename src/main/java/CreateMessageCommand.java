@@ -1,5 +1,7 @@
+import lombok.Data;
 import org.axonframework.commandhandling.TargetAggregateIdentifier;
 
+@Data
 public class CreateMessageCommand {
 
     @TargetAggregateIdentifier
